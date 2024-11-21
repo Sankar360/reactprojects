@@ -1,0 +1,29 @@
+[
+    {
+        "id":1,
+        "name":"sankar",
+        "city":"chennai",
+        "description":"full-stack developer",
+        "skills":["html5","css3","bootstrap","javascript","jquery","reactjs","python","mysql","django","github"],
+        "mode":"online",
+        "pic":"./assets/snimg.jpg"
+    },
+    {
+        "id":2,
+        "name":"nila",
+        "city":"london",
+        "description":"frontend developer",
+        "skills":["html5","css3","bootstrap","javascript","jquery","reactjs","github"],
+        "mode":"offline",
+        "pic":"./assets/snimg.jpg"
+    },
+    {
+        "id":3,
+        "name":"kutty",
+        "city":"srivi",
+        "description":"mern-stack developer",
+        "skills":["mongodb","expressjs","reactjs","nodejs","github"],
+        "mode":"online",
+        "pic":"./assets/snimg.jpg"
+    }
+]

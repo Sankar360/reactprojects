@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+}
+
+#root{
+    width: 100vw;
+    height: 100vh;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    overflow: auto;
+}
+
+
+.container{
+    width: 320px;
+    max-width: 320px;
+    padding: 10px;
+    border-radius:5px;
+    background-color: rgb(25, 163, 188);
+    box-shadow: 5px 5px 10px rgba(0,0,0);
+    position: relative;
+}
+
+.span{
+    background-color: green;
+    padding: 5px 10px;
+    position: absolute;
+    left:10px;
+    top: 20px;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.online{
+    background-color: rgb(157, 255, 0);
+}
+
+.offline{
+    background-color: rgb(222, 97, 19);
+}
+
+
+.img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.details{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+}
+
+.details h2{
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.details h3{
+    color: white;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.details p{
+    color: rgb(240, 9, 9);
+    font-size: 14px;
+    font-weight: 900;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+button{
+    padding: 5px 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: rgb(55, 55, 184);
+    color: white;
+    font-size: 18px;
+    font-weight: 900;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgba(0,0,0);
+}
+
+button:last-child{
+    background-color: rgb(43, 186, 226);
+}
+
+button:last-child:hover{
+    background-color: aqua;
+}
+
+button:hover{
+    background-color: rgb(9, 9, 168);
+}
+
+
+h4{
+    margin-top: 20px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+ul{
+    list-style: none;
+    gap: 10px;
+    margin-top: 10px;
+    display: inline-flex;
+    margin-left: 10px;
+}
+
+ul li{
+    text-transform: capitalize;
+    border: 1px solid black;
+    padding: 3px;
+    border-radius: 5px;
+    color: white;
+}

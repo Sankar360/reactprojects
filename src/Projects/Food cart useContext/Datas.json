@@ -1,0 +1,182 @@
+[
+    {
+        "id":1,
+        "name":"pizza",
+        "amt":250,
+        "shop":"pizza hut",
+        "ftype":"pizza",
+        "pic":"pizza.jpg",
+        "latest":"No"
+    },
+    {
+        "id":2,
+        "name":"barbeque",
+        "amt":280,
+        "shop":"hot spot",
+        "ftype":"chicken",
+        "pic":"barbeque.jpg",
+        "latest":"Yes"
+    },
+    {
+        "id":3,
+        "name":"breadomplate",
+        "amt":70,
+        "shop":"hot spot",
+        "ftype":"bread",
+        "pic":"breadomplate.jpg",
+        "latest":"No"
+    },
+    {
+        "id":4,
+        "name":"briyani",
+        "amt":130,
+        "shop":"sahana",
+        "ftype":"meal",
+        "pic":"briyani.jpg",
+        "latest":"No"
+    },
+    {
+        "id":5,
+        "name":"burger",
+        "amt":250,
+        "shop":"pizza hut",
+        "ftype":"burger",
+        "pic":"burger.jpg",
+        "latest":"No"
+    },
+    {
+        "id":6,
+        "name":"butter naan",
+        "amt":50,
+        "shop":"homnit",
+        "ftype":"rotti",
+        "pic":"butter naan.jpg",
+        "latest":"Yes"
+    },
+    {
+        "id":7,
+        "name":"chapathi",
+        "amt":30,
+        "shop":"hot spot",
+        "ftype":"rotti",
+        "pic":"chapathi.jpg",
+        "latest":"No"
+    },
+    {
+        "id":8,
+        "name":"chiken fry",
+        "amt":180,
+        "shop":"pizza hut",
+        "ftype":"chicken",
+        "pic":"chicken fry.jpg",
+        "latest":"No"
+    },
+    {
+        "id":9,
+        "name":"chicken rise",
+        "amt":250,
+        "shop":"hot spot",
+        "ftype":"pizza",
+        "pic":"chicken rise.jpg",
+        "latest":"No"
+    },
+    {
+        "id":10,
+        "name":"chocalete cake",
+        "amt":70,
+        "shop":"cool",
+        "ftype":"cake",
+        "pic":"choclate cake.jpg",
+        "latest":"Yes"
+    },
+    {
+        "id":11,
+        "name":"Filter coffee",
+        "amt":50,
+        "shop":"cool",
+        "ftype":"drink",
+        "pic":"cofee.jpg",
+        "latest":"No"
+    },
+    {
+        "id":12,
+        "name":"dosa",
+        "amt":50,
+        "shop":"hot spot",
+        "ftype":"breakfast",
+        "pic":"dosa.jpg",
+        "latest":"No"
+    },
+    {
+        "id":13,
+        "name":"fish",
+        "amt":130,
+        "shop":"pizza hut",
+        "ftype":"non veg",
+        "pic":"fish.jpg",
+        "latest":"Yes"
+    },
+    {
+        "id":14,
+        "name":"idli",
+        "amt":30,
+        "shop":"hot spot",
+        "ftype":"breakfast",
+        "pic":"idli.jpg",
+        "latest":"No"
+    },
+    {
+        "id":15,
+        "name":"momos",
+        "amt":290,
+        "shop":"pizza hut",
+        "ftype":"pizza",
+        "pic":"momos.jpg",
+        "latest":"Yes"
+    },
+    {
+        "id":16,
+        "name":"noodles",
+        "amt":120,
+        "shop":"pizza hut",
+        "ftype":"non veg/veg",
+        "pic":"noodles.jpg",
+        "latest":"No"
+    },
+    {
+        "id":17,
+        "name":"pastha",
+        "amt":230,
+        "shop":"pizza hut",
+        "ftype":"veg",
+        "pic":"pastha.jpg",
+        "latest":"Yes"
+    },
+    {
+        "id":18,
+        "name":"poori",
+        "amt":40,
+        "shop":"hot spot",
+        "ftype":"veg",
+        "pic":"poori.jpg",
+        "latest":"No"
+    },
+    {
+        "id":19,
+        "name":"prawn",
+        "amt":150,
+        "shop":"pizza hut",
+        "ftype":"non veg",
+        "pic":"prawn.jpg",
+        "latest":"Yes"
+    },
+    {
+        "id":20,
+        "name":"rice",
+        "amt":120,
+        "shop":"homnit",
+        "ftype":"meals",
+        "pic":"rice.jpg",
+        "latest":"No"
+    }
+]

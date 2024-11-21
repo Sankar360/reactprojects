@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto',sans-serif;
+}
+
+body{
+    width:100vw;
+    height:100vh;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.container{
+    width: 400px;
+    background-color: blue;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0,0,0);
+    animation: rightmini 3s 1 ease-in-out;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    padding: 5px;
+    background-color: white;
+    border: none;
+    border-radius: 50%;
+    font-size: 18px;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(255, 30, 0);
+    color: white;
+}
+
+select{
+    padding: 5px 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 900;
+    border-radius: 5px;
+    background-color: coral;
+}
+
+.dayofweek{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-left: 5px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+#month,#year{
+    text-transform: capitalize;
+    color: white;
+}
+
+.days{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    gap: 10px;
+    padding: 10px;
+    background-color: aliceblue;
+    border-radius: 3px;
+    margin:10px;
+    box-shadow: 5px 5px 10px rgba(0,0,0);
+    animation: leftmini 2s 1 ease-in-out;
+}
+
+.daymini{
+    padding: 10px;
+    color: rgb(253, 17, 17);
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 3px;
+}
+
+@keyframes leftmini{
+    0%{
+        transform:rotate(0deg);
+    }
+    25%{
+        transform: rotate(90deg);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    75%{
+        transform: rotate(270deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+
+@keyframes rightmini{
+    0%{
+        transform: translateX(150px);
+    }
+    25%{
+        transform: translateX(0px);
+    }
+    50%{
+        transform: translateX(-150px);
+    }
+    75%{
+        transform: translateX(0px);
+    }
+}
+
+.daysup{
+    background-color: coral;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.empty{
+    border: 1px solid black;
+    border-radius: 3px;
+}

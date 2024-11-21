@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    font-family: "Rubik", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(203, 149, 78);
+    padding: 10px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+li{
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(37, 22, 22);
+    background-color: beige;
+}
+
+li:hover{
+    background-color: bisque;
+    cursor: pointer;
+}
+
+h2{
+    color: white;
+    font-size: 23px;
+    text-transform: uppercase;
+    font-size: 700;
+}
+
+p{
+    color: red;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.pagination{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+button{
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: capitalize;
+    box-shadow: 3px 3px 5px rgba(0,0,0);
+}
+
+.one,.four{
+    background-color: blue;
+    color: white;
+}
+
+.two,.three{
+    background-color: rgb(226, 43, 177);
+    color: white;
+}
+
+
+.active{
+    background-color: coral;
+    color: white;
+}
+
+.disabled{
+    background-color: gray;
+    color: black;
+}

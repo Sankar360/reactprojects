@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: "Poppins", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: gray;
+    display: grid;
+    place-items: center;
+}
+
+.toast-container{
+    position: fixed;
+    top: 30px;
+    right: 30px;
+    width: 300px;
+}
+
+.toast{
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    text-transform: capitalize;
+    border-radius: 5px;
+    box-shadow: 3px 3px 7px rgba(0,0,0);
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    animation: slider 1s 1;
+}
+
+@keyframes slider{
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(0%);
+    }
+}
+
+span{
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.button-group{
+    display: flex;
+    gap: 10px;
+}
+
+button{
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    box-shadow: 0px 3px 5px rgba(0,0,0);
+    cursor: pointer;
+}
+
+.success{
+    background-color: green;
+    color: white;
+}
+
+.warning{
+    background-color: yellow;
+}
+
+.info{
+    background-color: blue;
+    color: white;
+}
+
+.danger{
+    background-color: red;
+    color: white;
+}

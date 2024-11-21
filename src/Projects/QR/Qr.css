@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Noto Sans", sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: rgb(225, 22, 22);
+    width: 500px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,.6);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    animation: rotate 1s ease-in;
+}
+
+.img{
+    width: 150px;
+    height: 150px;
+}
+
+.img img{
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+    padding: 5px;
+    background-color: white;
+}
+
+.input-group{
+    width: 100%;
+}
+
+label{
+    display: block;
+    margin-bottom: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+h2{
+    color: bisque;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+button{
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: rgb(50, 223, 223);
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 700;
+    box-shadow: 3px 3px 5px rgba(0,0,0);
+}
+
+p{
+    color: rgb(191, 255, 0);
+}
+
+.btn{
+    display: flex;
+    gap: 20px;
+}
+
+button:last-child{
+    background-color: rgb(30, 30, 162);
+}
+
+button:last-child:hover{
+    background-color: blue;
+}
+
+button:hover{
+    background-color: aqua;
+}
+
+@keyframes rotate{
+    0%{
+        transform: rotate(-360deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}

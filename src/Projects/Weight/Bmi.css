@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap');
+
+*{
+    font-family: "Afacad Flux", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    width: 240px;
+    height: 300px;
+}
+
+.img{
+    padding: 20px;
+}
+
+.three{
+    color: red;
+    text-align: center;
+    font-size:18px;
+    font-weight: 700;
+}
+
+.container{
+    background-color: rgb(44, 132, 209);
+    width: 600px;
+    display: flex;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0,0,0);
+    animation: slider 3s 1;
+}
+
+.input-group{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+}
+
+.input-group h1{
+    color: aqua;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+label{
+    display: block;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    text-transform: capitalize;
+}
+
+@keyframes slider{
+    0%{
+        transform: translateY(-150%);
+    }
+    50%{
+        transform: translateY(150%);
+    }
+    100%{
+        transform: translateY(0%);
+    }
+}
+
+.label{
+    width: 300px;
+}
+
+input{
+    width: 100%;
+    padding: 7px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+.btn{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.one{
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(111, 255, 0);
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 2px 3px 5px rgba(0,0,0,.6);
+    color: white;
+}
+
+.one:hover{
+    background-color: rgb(168, 241, 20);
+}
+
+.two{
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(255, 34, 0);
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 2px 3px 5px rgba(0,0,0,.6);
+    color: white;
+}
+
+.two:hover{
+    background-color: red;
+}
+
+.footer{
+    border: 1px solid black;
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+p:first-child{
+    font-size: 20px;
+    color: rgb(242, 16, 58);
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+p:last-child{
+    font-size: 18px;
+    text-transform: capitalize;
+    color: antiquewhite;
+    font-weight: 700;
+}
